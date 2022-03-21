@@ -8,7 +8,8 @@ let fullCode = "#8a3294#70e9e2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#
 let gR = 0;
 
 
-function preview() {
+
+
 var toAdd = document.createDocumentFragment();
 
 
@@ -77,6 +78,4 @@ document.getElementById(newPic).appendChild(toAdd);
 }
 gR = gR+1;
 //alert(gR);
-}
-
 }

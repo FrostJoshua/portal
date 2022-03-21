@@ -7,11 +7,65 @@
     <meta charset="utf-8" />
     <title></title>
 
+
+
     <style>
+
+  .header {
+padding: 20px;
+text-align: center;
+font-size: 40px;
+}
+
+  .footer {
+
+ overflow-wrap: break-word;
+text-align: center;
+padding: 20px;
+margin: auto;
+ width: 800px;
+font-size: 14px;
+}
+
+  .container {
+
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto
+  }
+      .smallcontainer {
+
+    padding: 0px;
+    height: 300px;
+    width: 300px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto
+  }
+
+
+    .square {
+      background-color: #ffffff;
+      float: left;
+      position: relative;
+      width: 6.25%;
+      height: 6.25%;
+      margin: 0%;
+
+
+    }
+
+        .prevbutton {
+  font-size:10px;
+
+
+}
+.button{font-size: 15px;}
+
+      @media screen and (max-width: 600px) {
     .header {
   padding: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
 }
 
     .footer {
@@ -39,6 +93,7 @@
       grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto
     }
 
+.button{font-size: 100px;}
 
       .square {
         background-color: #ffffff;
@@ -50,10 +105,13 @@
 
 
       }
+}
 
           .prevbutton {
-height:20px;
+  font-size:25px;
 
+
+}
 
 }
       body {
@@ -81,20 +139,10 @@ padding-left: 35px;
     </div>
       </head>
   <body>
-<script src="gen.js"></script>
 
 
 
 
-<div style="text-align:center">
-
-
-
-<button onclick="preview()">Enter</button>
-
-
-
-</div>
 <div class="prevbutton">
 <div style="text-align:center">
 <p>
@@ -314,5 +362,6 @@ There are no images here. All graphics are rendered using PixelScript.
 
 
  </div>
+ <script src="gen.js"></script>
    </body>
 </html>
