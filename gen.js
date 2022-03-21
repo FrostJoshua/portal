@@ -79,3 +79,7 @@ document.getElementById(newPic).appendChild(toAdd);
 gR = gR+1;
 //alert(gR);
 }
+
+
+function myhref(web){
+  window.location.href = web;}
