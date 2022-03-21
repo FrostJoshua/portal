@@ -18,7 +18,7 @@ var toAdd = document.createDocumentFragment();
 
 
 
-for(var c=0; c < 204; c++){
+for(var c=0; c < 205; c++){
 
 if (c==0){fullCode = fullCode1;}
 if (c==1){fullCode = fullCode2;}
