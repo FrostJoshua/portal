@@ -6,6 +6,8 @@ let fullCode4 = "#8a3294#70e9e2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff
 let fullCode = "#8a3294#70e9e2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffffababababababababb0000000000ii00aa0abab0000baii0bb0ba0ab00babaiiaa0ab00a0bai0ba0bb0ba0abiabi0000aa0abab00babi000bb0bai0i0ibabii0aa0ab00000ibabiibb0ba000000ibabiaa0ab0000iiiibaibb00a0000abiiab0aa0a000000abab00bb00a000000ab0i0aa00000000000000bbabababababababa";
 let fullCode6 = "#6611bb#4dffb2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffffbbbbbbbbbbbbbbbbbbbbabbabbabbbbbbbbababaababbbbbbbbaaababaabbbbbbbbabababbabbbbbbbbbbbbbbbbbbbbbbbababbbabbaabbbbbabaabaababbbbbbbababababababbbbbababbbabbaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb";
 let fullCode5 ="#6611bb#4dffb2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffffbbbbbbbbbbbbbbbbbaaababababbbbbbbbabbaaababbaabbbbabbabababababbbbbbbbbbbbbabbbbbbbbbbbbbbbbabbbbbbbbbbbbabbbabbbbbbbbbbbabababbbbbbbbbbbabaabbbbbbbbbbbbbbbbbbbbbbabbabbabbaaabbbbaababababbabbbbbabaabababbabbbbbabbabbabbbabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+let fullCode7 = "#ff8040#800040#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffffbaaaaaaaaabbaaabaaaaaaaaaaabbaaaaaaaaaaaaaaabbaaaabababababaabbaaabababababaabbaaaaaaaaaaaaabbaaaaaaaaaaaaabbaaaaaaaaaaaaabbaaaaaaaaaaaaaaaaaaaaaabaababaaaabaaaabababaaaababbaaabaaabababaabaaaabababababaabbaaaabaababaabababaaaaaaaaaaaaaaaaabaabbbbbbbbbbaab";
+
 let gR = 0;
 
 
@@ -20,11 +22,12 @@ var toAdd = document.createDocumentFragment();
 
 
 for(var c=0; c < 205; c++){
-
+if (c>1){fullCode = fullCode4;}
 if (c==0){fullCode = fullCode1;}
 if (c==1){fullCode = fullCode2;}
 if (c==2){fullCode = fullCode3;}
-if (c>2){fullCode = fullCode4;}
+if (c==3){fullCode = fullCode7;}
+
 if (c==4){fullCode = fullCode5;}
 if (c==9){fullCode = fullCode6;}
 const pArray = fullCode.split("");
