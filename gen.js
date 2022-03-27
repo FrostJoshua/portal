@@ -7,7 +7,7 @@ let fullCode = "#8a3294#70e9e2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#
 let fullCode6 = "#6611bb#4dffb2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffffbbbbbbbbbbbbbbbbbbbbabbabbabbbbbbbbababaababbbbbbbbaaababaabbbbbbbbabababbabbbbbbbbbbbbbbbbbbbbbbbababbbabbaabbbbbabaabaababbbbbbbababababababbbbbababbbabbaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb";
 let fullCode5 ="#6611bb#4dffb2#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffffbbbbbbbbbbbbbbbbbaaababababbbbbbbbabbaaababbaabbbbabbabababababbbbbbbbbbbbbabbbbbbbbbbbbbbbbabbbbbbbbbbbbabbbabbbbbbbbbbbabababbbbbbbbbbbabaabbbbbbbbbbbbbbbbbbbbbbabbabbabbaaabbbbaababababbabbbbbabaabababbabbbbbabbabbabbbabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
 let fullCode7 = "#ff8040#800040#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff#ffffffbaaaaaaaaabbaaabaaaaaaaaaaabbaaaaaaaaaaaaaaabbaaaabababababaabbaaabababababaabbaaaaaaaaaaaaabbaaaaaaaaaaaaabbaaaaaaaaaaaaabbaaaaaaaaaaaaaaaaaaaaaabaababaaaabaaaabababaaaababbaaabaaabababaabaaaabababababaabbaaaabaababaabababaaaaaaaaaaaaaaaaabaabbbbbbbbbbaab";
-
+let fullCode8 = "#d2782d#eda564#e89f5a#6a4144#3f0b0d#d1cdca#c77128#f4c8ab#ffffff#f3ba8d#ffffff#ffffff#ffffff#ffffff#ffffff#ffffff000000000000000000000000000000000000000ccc000000000000cccca0000000000abjbcag00000000ichhbccgg0000000achjbccag0000000acjjcbcca000000icbjcccbca0000000bbbcccbba0000000bbbcccbba0000000ibbbbbbag00000000abbbbagff000000fdaaaagdfff000000feeeeddff000000000000000000";
 let gR = 0;
 
 
@@ -29,6 +29,7 @@ if (c==2){fullCode = fullCode3;}
 if (c==3){fullCode = fullCode7;}
 
 if (c==4){fullCode = fullCode5;}
+if (c==5){fullCode = fullCode8;}
 if (c==9){fullCode = fullCode6;}
 const pArray = fullCode.split("");
 var prevcolor1 = pArray.slice(0, 7).join("");
